@@ -22,7 +22,7 @@
   "homepage": "https://github.com/freeCodeCamp/freeCodeCamp#readme",
   "author": "freeCodeCamp <team@freecodecamp.org>",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "eslint --max-warnings 0",
     "test": "vitest run",
     "test:watch": "vitest",
