@@ -20,7 +20,7 @@
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "type-check": "tsc --noEmit",
-    "build": "tsc",
+    "build": "node init && tsc",
     "lint": "eslint --max-warnings 0"
   },
   "type": "module",

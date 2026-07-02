@@ -10,7 +10,7 @@
     "pnpm": ">=10"
   },
   "scripts": {
-    "build": "tsdown --log-level warn --no-clean --format cjs --format esm",
+    "build": "node init && tsdown --log-level warn --no-clean --format cjs --format esm",
     "clean": "rm -rf dist",
     "develop": "tsdown --log-level warn --no-clean --watch src --format cjs --format esm",
     "lint": "eslint --max-warnings 0",

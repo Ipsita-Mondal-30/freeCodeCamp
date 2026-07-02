@@ -29,7 +29,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --max-warnings 0",
-    "build": "pnpm copy-scripts && pnpm bundle",
+    "build": "node init && pnpm copy-scripts && pnpm bundle",
     "bundle": "NODE_OPTIONS=\"--max-old-space-size=7168\" webpack -c webpack.config.cjs --env production",
     "copy-scripts": "tsx ./copy-scripts.ts"
   },
